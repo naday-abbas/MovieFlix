@@ -46,7 +46,7 @@ function Home() {
 
 
     return (
-        <div className="Home py-11 pr-4 w-full box-border max-md:p-4 max-md:py-8 max-md:pr-8">
+        <div className="Home py-11 pr-4 w-full box-border max-md:p-4 max-md:py-8 max-md:pr-4">
             <form
                 onSubmit={handleSearch}
                 className="search-form max-w-xl mt-0 mb-8 mx-auto flex gap-4 py-0 px-4 box-border max-md:mb-4"
